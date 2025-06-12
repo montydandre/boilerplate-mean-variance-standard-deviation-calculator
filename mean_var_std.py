@@ -38,4 +38,4 @@ def calculate(numbers):
             np.sum(arr).item()
         ]
     }
-        return calculations
+    return calculations
