@@ -37,4 +37,5 @@ def calculate(numbers):
             np.sum(arr, axis=1).tolist(),
             np.sum(arr).item()
         ]
+    }
         return calculations
