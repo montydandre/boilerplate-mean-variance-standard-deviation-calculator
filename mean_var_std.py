@@ -2,7 +2,7 @@ import numpy as np
 
 def calculate(numbers):
     if len(numbers) !=9:
-        raise ValueError ("List must contain nince numbers.")
+        raise ValueError ("List must contain nine numbers.")
 
     arr = np.array(numbers).reshape((3,3))
 
